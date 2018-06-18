@@ -138,6 +138,17 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v4.0.0"
   },
+  "canvas": {
+    "dependencies": [
+      "effect",
+      "functions",
+      "maybe",
+      "exceptions",
+      "arraybuffer-types"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-canvas.git",
+    "version": "compiler/0.12"
+  },
   "catenable-lists": {
     "dependencies": [
       "control",
@@ -149,6 +160,17 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
+    "version": "v5.0.0"
+  },
+  "colors": {
+    "dependencies": [
+      "arrays",
+      "integers",
+      "lists",
+      "partial",
+      "strings"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-colors.git",
     "version": "v5.0.0"
   },
   "console": {
@@ -243,6 +265,17 @@
     ],
     "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
     "version": "v6.0.0"
+  },
+  "drawing": {
+    "dependencies": [
+      "canvas",
+      "lists",
+      "math",
+      "integers",
+      "colors"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-drawing.git",
+    "version": "compiler/0.12"
   },
   "effect": {
     "dependencies": [
